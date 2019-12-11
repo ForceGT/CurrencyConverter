@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner_items_array">
+        <item>CAD-Canada</item>
+        <item>HKD-HongKong</item>
+        <item>ISK-Iceland</item>
+        <item>PHP-Philippines</item>
+        <item>DKK-Danish</item>
+        <item>HUF-Hungary</item>
+        <item>CZK-Czech</item>
+        <item>AUD-Australia</item>
+        <item>RON-Romania</item>
+        <item>SEK-Sweden</item>
+        <item>IDR-Indonesia</item>
+        <item>INR-India</item>
+        <item>BRL-Brazil</item>
+        <item>RUB-Russia</item>
+        <item>HRK-Croatia</item>
+        <item>JPY-Japan</item>
+        <item>THB-Thailand</item>
+        <item>CHF-Switzerland</item>
+        <item>SGD-Singapore</item>
+        <item>PLN-Poland</item>
+        <item>BGN-Bulgaria</item>
+        <item>TRY-Turkey</item>
+        <item>CNY-China</item>
+        <item>NOK-Norway</item>
+        <item>NZD-NewZealand</item>
+        <item>ZAR-SAfrica</item>
+        <item>USD-United States</item>
+        <item>MXN-Mexico</item>
+        <item>ILS-Israel</item>
+        <item>GBP-Guernsey</item>
+        <item>KRW-SKorea</item>
+        <item>MYR-Malaysia</item>
+    </string-array>
+</resources>
