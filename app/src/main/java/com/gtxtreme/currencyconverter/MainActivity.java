@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
         fromSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
-                fromSelected= adapterView.getItemAtPosition(i).toString();
+                fromSelected = adapterView.getItemAtPosition(i).toString();
                 fromCountryCode = fromSelected.substring(0,fromSelected.indexOf("-"));
                // Log.d("HellofromCountry",fromCountryCode);
             }

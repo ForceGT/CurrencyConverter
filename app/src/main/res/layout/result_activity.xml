@@ -87,7 +87,6 @@
 
     <Button
         android:id="@+id/button"
-        android:elevation="20dp"
         android:layout_width="350dp"
         android:layout_height="62dp"
         android:layout_marginStart="30dp"
@@ -95,6 +94,7 @@
         android:layout_marginBottom="16dp"
         android:alpha="0.75"
         android:background="@color/tint"
+        android:elevation="20dp"
         android:text="Save Result"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -53,6 +53,7 @@ public class ResultActivity extends AppCompatActivity {
         buttonTakeSS.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //Android 6.0 + it is compulsory to ask permissions API Level 23
                 //String [] permissions ={Manifest.permission.READ_EXTERNAL_STORAGE, Manifest.permission.WRITE_EXTERNAL_STORAGE};
                 if(ContextCompat.checkSelfPermission(ResultActivity.this,Manifest.permission.WRITE_EXTERNAL_STORAGE)!=PackageManager.PERMISSION_GRANTED){
                     ActivityCompat.requestPermissions(ResultActivity.this,new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE},WRITE_STORAGE_CODE);
@@ -95,7 +96,6 @@ public class ResultActivity extends AppCompatActivity {
             v1.setDrawingCacheEnabled(true);
             Bitmap bitmap = Bitmap.createBitmap(v1.getDrawingCache());
             v1.setDrawingCacheEnabled(false);
-
             imageFile = new File(mPath);
 
             FileOutputStream outputStream = new FileOutputStream(imageFile);
